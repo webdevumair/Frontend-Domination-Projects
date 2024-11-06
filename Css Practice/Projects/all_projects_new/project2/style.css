@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 50px;
+    gap: 70px;
+}
+
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* gap: 120px; */
+    
+}
+
+
+
+#left h1{
+    font-size: 90px;
+    margin-top: 20px;
+    font-weight: 900;
+    font-family:  "Work Sans";
+    line-height: 74px;
+    padding-bottom: 20%;
+}
+
+#bottom-left{
+    /* background-color: yellow; */
+    height: 40%;
+    width: 100%;
+}
+
+.colors{
+    width: fit-content;
+    /* background-color: red; */
+    padding: 7px 18px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.colors h5{
+    margin-right: 10px;
+}
+
+.color1{
+    background-color: #7B6651;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; 
+    margin: 3px;
+}
+.color2{
+    background-color: #353331;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; 
+}
+
+#bottom-left h2{
+    margin-top: 27px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#left p{
+    font-size: 15px;
+    width: 70%;
+    line-height: 25px;
+    color: #444;
+    font-weight: 600;
+}
+
+#right{
+    height: 90%;
+    width: 33%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 20px;
+    font-weight: 600;
+    /* color: white; */
+}
+
+#right-top h5{
+    font-size: 15px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.black-gola{
+    height: 120px;
+    width: 120px;
+    background-color: #222222;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    right: -12%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-gola h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.rotated{
+    position: absolute;
+    rotate: -90deg;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+}

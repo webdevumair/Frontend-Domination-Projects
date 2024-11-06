@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Pesudeo Class</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+    }
+    #bos{
+        background-color: red;
+        display: flex;
+        height: 300px;
+        width: 300px;
+    }
+    .box{
+        height: 50px;
+        width: 50px;
+        background-color: royalblue;
+    }
+</style>
+<body>
+    <!-- x axis = main  -->
+    <!-- y axis = cross -->
+    <div id="bos">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
