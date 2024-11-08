@@ -91,6 +91,10 @@ nav i{
     font-weight: 600;
 }
 
+.elem:nth-child(3){
+    border-bottom: 2px solid black;
+}
+
 .elem:hover i{
     opacity: 1;
 }
@@ -114,12 +118,6 @@ nav i{
 
 @media (max-width: 600px) {
 
-
-    #main{
-      display: flex;
-      flex-direction: column;
-      gap: 50px;
-    }
     nav{
         height: 50px;
         padding: 10px 30px;
@@ -148,6 +146,8 @@ nav i{
         font-weight: 400;
         /* line-height: 50px; */
         line-height: 10vw;
+        margin-left: 5px;
+        margin-top: 5px;
     }
     
     .center-in{
@@ -163,6 +163,8 @@ nav i{
         font-size: 3.5vw;
         font-weight: 500;
         line-height: 5vw;
+        margin-left: 5px;
+        margin-top: 5px;
     }
     
     #right{
@@ -171,8 +173,9 @@ nav i{
     }
     
     .elem{
+        height: 30%;
         /* background-color: yellow; */
-        margin-top: 5px;
+        /* margin-top: 5px; */
         padding: 15px 0;
         border-top: 2px solid black;
         display: flex;
@@ -202,6 +205,7 @@ nav i{
         text-decoration: underline;
     }
     #bottom{
+        margin-top: 70px;
         height: 40%;
         width: 100%;
         background-color: red;
