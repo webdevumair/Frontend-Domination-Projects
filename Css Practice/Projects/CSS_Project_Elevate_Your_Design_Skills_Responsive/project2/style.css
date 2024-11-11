@@ -15,10 +15,10 @@ main {
   width: 100%;
   display: flex;
   align-items: flex-end;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding: 0px 90px;
   padding-top: 50px;
-  gap: 70px;
+  /* gap: 70px; */
 }
 
 #left {
@@ -193,7 +193,7 @@ main {
   .colors {
     width: fit-content;
     /* background-color: red; */
-    padding: 6px 10px;
+    padding: 1vh 2vw;
     border: 1px solid black;
     border-radius: 50px;
     display: flex;
@@ -222,14 +222,80 @@ main {
   #bottom-left h2 {
     margin-top: 27px;
     margin-bottom: 10px;
-    font-size: 4.3vw;
+    font-size: 6.3vw;
   }
 
   #left p {
-    font-size: 2vw;
-    width: 70%;
-    line-height: 3vw;
+    font-size: 3vw;
+    width: 100%;
+    line-height: 4vw;
     color: #444;
     font-weight: 600;
+  }
+
+  #right {
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #right-top {
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+
+  #right-top h4 {
+    font-size: 20px;
+    font-weight: 600;
+    /* color: white; */
+  }
+
+  #right-top h5 {
+    font-size: 15px;
+  }
+
+  #right-top h5 i {
+    color: gold;
+  }
+
+  #right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .black-gola {
+    height: 100px;
+    width: 100px;
+    background-color: #222222;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    right: -5%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .black-gola h5 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .rotated {
+    position: absolute;
+    rotate: 0deg;
+    top: -20%;
+    left: 20%;
   }
 }
