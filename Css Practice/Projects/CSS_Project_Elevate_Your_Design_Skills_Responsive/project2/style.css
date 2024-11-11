@@ -34,7 +34,7 @@ main {
 #left h1 {
   font-size: 7vw;
   margin-top: 20px;
-  font-weight: 900;
+  font-weight: 600;
   font-family: "Work Sans";
   line-height: 6vw;
   padding-bottom: 20px;
@@ -179,7 +179,7 @@ main {
 
   #left h1 {
     font-size: 18vw;
-    font-weight: 900;
+    font-weight: 600;
     font-family: "Work Sans";
     line-height: 18vw;
   }
