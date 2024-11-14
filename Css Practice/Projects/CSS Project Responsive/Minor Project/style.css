@@ -174,13 +174,13 @@ main {
 
 #scroll img {
   /* display: none; */
-  height: 40vh;
+  height: 45vh;
   padding: 1vw;
   width: 20vw;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  margin: 0 2.5vw;
+  margin: 0 2vw;
 }
 
 @keyframes anime {
