@@ -10,44 +10,38 @@ body {
   width: 100%;
 }
 main {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #f8f8f8;
   position: relative;
   padding: 0.1px;
-  overflow-x: hidden;
 }
 
 #nav {
   margin-top: 2vw;
   height: 12vh;
-  width: 100vw;
-  /* background-color: red; */
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   border-bottom: 2px solid #000;
   border-top: 2px solid #000;
 }
 
 #nav h1 {
-  /* background-color: blueviolet; */
   height: 100%;
-  width: 16%;
+  width: 23%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* text-transform: capitalize; */
+  justify-content: space-between;
   font-family: monument;
-  font-size: 35px;
-  padding-left: 60px;
+  font-size: 2vw;
+  padding-left: 50px;
   letter-spacing: -2px;
 }
 
 #nav h2 {
-  /* background-color: blueviolet; */
   height: 100%;
-  width: 40%;
+  width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,16 +49,6 @@ main {
   border-right: 2px solid #000;
   font-size: 20px;
   font-weight: 500;
-}
-
-#nav h2:nth-child(5) {
-  width: 15%;
-  padding-right: 40px;
-  font-size: 20px;
-}
-
-#nav h2 i {
-  font-size: 25px;
 }
 
 #center {
@@ -152,42 +136,4 @@ main {
   border-top: 2px solid #ffffff;
   color: white;
   text-transform: capitalize;
-}
-
-#scroll {
-  height: 50vh;
-  width: 100vw;
-  /* background-color: blue; */
-  white-space: nowrap;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding: 1vw;
-}
-
-#img {
-  height: 100%;
-  /* width: 100%; */
-  /* background-color: red; */
-  display: inline-block;
-  animation: anime 20s 2s linear infinite;
-}
-
-#scroll img {
-  /* display: none; */
-  height: 45vh;
-  padding: 1vw;
-  width: 20vw;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  margin: 0 2vw;
-}
-
-@keyframes anime {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }
