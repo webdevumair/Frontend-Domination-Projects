@@ -273,25 +273,61 @@ nav h2:nth-last-child(1){
 
 
 #bio{
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  background-color: red;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 2vw 4vw;
+  justify-content: center;
+  padding: 2vw 3vw;
   gap: 3vw;
 }
 
 #left{
   height: 100%;
-  width: 60%;
+  width: 50%;
   background-color: blue;
 }
+
+
+#left img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#left h1{
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: monument;
+  color: black;
+  letter-spacing: 0.5vw;
+}
+
 
 #right{
   height: 100%;
   width: 40%;
   background-color: green;
+}
+
+#right .top{
+  height: 60%;
+  width: 100%;
+  background-color: red;
+}
+
+#right .top img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+#right .bottom{
+  height: 40%;
+  width: 100%;
+  background-color: yellow;
 }
 
