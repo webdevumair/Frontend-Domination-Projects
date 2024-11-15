@@ -273,7 +273,7 @@ nav h2:nth-last-child(1){
 
 
 
-#bio{
+#page2{
   height: 100vh;
   width: 100%;
   display: flex;
@@ -298,12 +298,11 @@ nav h2:nth-last-child(1){
 }
 
 #left h1{
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: 600;
   font-family: monument;
   color: black;
-  letter-spacing: 0.5vw;
-  margin-top: 2vw;
+  letter-spacing: 0.3vw;
 }
 
 
@@ -338,7 +337,7 @@ nav h2:nth-last-child(1){
   font-size: 2vw;
   font-weight: 600;
   width: 59%;
-  line-height: 2.2vw;
+  line-height: 2vw;
 }
 
 #right .bottom h6{
