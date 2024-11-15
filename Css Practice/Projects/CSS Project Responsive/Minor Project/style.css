@@ -230,6 +230,7 @@ nav h2:nth-last-child(1){
   padding: 0 2vw;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
+  letter-spacing: 0.2vw;
 }
 
 #alphabet h5{
@@ -290,7 +291,7 @@ nav h2:nth-last-child(1){
 
 
 #left img{
-  height: 100%;
+  height: 130%;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -302,6 +303,7 @@ nav h2:nth-last-child(1){
   font-family: monument;
   color: black;
   letter-spacing: 0.5vw;
+  margin-top: 2vw;
 }
 
 
