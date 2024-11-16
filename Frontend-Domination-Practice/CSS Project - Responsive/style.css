@@ -279,8 +279,8 @@ nav h2:nth-last-child(1){
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2vw 3vw;
-  gap: 3vw;
+  padding: 2vw 6vw 2vw 6vw;
+  gap: 5vw;
 }
 
 #left{
@@ -303,7 +303,6 @@ nav h2:nth-last-child(1){
   font-family: monument;
   color: black;
   letter-spacing: 0.2vw;
-  margin-top: 2vw;
 }
 
 
