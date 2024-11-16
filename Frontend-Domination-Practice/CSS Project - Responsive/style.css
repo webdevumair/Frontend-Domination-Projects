@@ -4,11 +4,12 @@
   box-sizing: border-box;
   font-family: "Gilroy";
 }
-html,
-body {
+
+html,body {
   height: 100%;
   width: 100%;
 }
+
 main {
   height: 100%;
   width: 100%;
@@ -47,14 +48,13 @@ nav h2 {
   text-transform: capitalize;
 }
 
-
-nav h1{
+nav h1 {
   font-size: 3vw;
   letter-spacing: -3px;
   position: relative;
 }
 
-nav h1::before{
+nav h1::before {
   content: "©️";
   font-size: 17px;
   position: absolute;
@@ -62,8 +62,7 @@ nav h1::before{
   right: -10%;
 }
 
-
-nav h1::after{
+nav h1::after {
   width: 60%;
   content: "model management";
   font-family: Arial, Helvetica, sans-serif;
@@ -75,20 +74,14 @@ nav h1::after{
   font-weight: 400;
 }
 
-
-
-nav h2:nth-child(4){
+nav h2:nth-child(4) {
   width: 35%;
 }
 
-nav h2:nth-last-child(1){
+nav h2:nth-last-child(1) {
   font-size: 2vw;
   font-weight: 500;
 }
-
-
-
-
 
 #vedio {
   height: 96vh;
@@ -101,17 +94,15 @@ nav h2:nth-last-child(1){
   height: 100%;
   width: 100%;
   position: relative;
- 
 }
 
-#video-container video{
+#video-container video {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  
 }
 
-#text-container{
+#text-container {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -121,23 +112,22 @@ nav h2:nth-last-child(1){
   padding: 2vw 4vw;
 }
 
-
-#text-container #top{
+#text-container #top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#text-container #top h1{
+#text-container #top h1 {
   font-size: 3vw;
   font-weight: 600;
   font-family: monument;
   letter-spacing: 2px;
   color: white;
-  mix-blend-mode:difference;
+  mix-blend-mode: difference;
 }
 
-#text-container #top h2{
+#text-container #top h2 {
   font-size: 1.5vw;
   font-weight: 500;
   height: 70px;
@@ -152,7 +142,7 @@ nav h2:nth-last-child(1){
 }
 
 #text-container #top h2::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   width: 100%;
@@ -166,13 +156,13 @@ nav h2:nth-last-child(1){
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
-
-#text-container #bottom{
+#text-container #bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -180,13 +170,12 @@ nav h2:nth-last-child(1){
   border-top: 1px solid #fff;
 }
 
-#text-container #bottom h4{
+#text-container #bottom h4 {
   font-size: 1.2vw;
   font-weight: 500;
 }
 
-
-#slider{
+#slider {
   height: 40%;
   width: 100%;
   padding: 2vw 4vw;
@@ -194,7 +183,7 @@ nav h2:nth-last-child(1){
   overflow-x: hidden;
 }
 
-#slider-container{
+#slider-container {
   height: 100%;
   width: 120%;
   display: inline-block;
@@ -202,7 +191,7 @@ nav h2:nth-last-child(1){
   animation: slide 15s linear infinite;
 }
 
-#slider-container img{
+#slider-container img {
   height: 150px;
   width: 180px;
   border-radius: 50%;
@@ -212,16 +201,16 @@ nav h2:nth-last-child(1){
 }
 
 @keyframes slide {
-  0%{
+  0% {
     transform: translateX(0%);
   }
-  100%{
+
+  100% {
     transform: translateX(-100%);
   }
 }
 
-
-#alphabet{
+#alphabet {
   height: 13vh;
   width: 100%;
   display: flex;
@@ -233,7 +222,7 @@ nav h2:nth-last-child(1){
   letter-spacing: 0.2vw;
 }
 
-#alphabet h5{
+#alphabet h5 {
   margin-right: 50px;
   font-size: 2vw;
   font-weight: 600;
@@ -241,7 +230,7 @@ nav h2:nth-last-child(1){
   font-style: italic;
 }
 
-#alphabet h6{
+#alphabet h6 {
   font-size: 1.5vw;
   font-weight: 500;
   font-style: italic;
@@ -250,17 +239,16 @@ nav h2:nth-last-child(1){
   border-radius: 50%;
 }
 
-#alphabet h6:hover{
+#alphabet h6:hover {
   border: 1.5px solid #000;
   cursor: pointer;
 }
 
-
-#alphabet h6:nth-child(3n){
+#alphabet h6:nth-child(3n) {
   color: #818181;
 }
 
-#alphabet h6:nth-child(8){
+#alphabet h6:nth-child(8) {
   border-radius: 50%;
   height: 40px;
   width: 45px;
@@ -268,12 +256,9 @@ nav h2:nth-last-child(1){
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-
-
-#page2{
+#page2 {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -283,21 +268,20 @@ nav h2:nth-last-child(1){
   gap: 5vw;
 }
 
-#left{
+#left {
   height: 100%;
   width: 50%;
   background-color: blue;
 }
 
-
-#left img{
+#left img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-#left h1{
+#left h1 {
   font-size: 3vw;
   font-weight: 600;
   font-family: monument;
@@ -305,26 +289,24 @@ nav h2:nth-last-child(1){
   letter-spacing: 0.2vw;
 }
 
-
-#right{
+#right {
   height: 100%;
   width: 40%;
 }
 
-#right .top{
+#right .top {
   height: 60%;
   width: 100%;
 }
 
-#right .top img{
+#right .top img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-
-#right .bottom{
+#right .bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -332,14 +314,14 @@ nav h2:nth-last-child(1){
   width: 100%;
 }
 
-#right .bottom h5{
+#right .bottom h5 {
   font-size: 2vw;
   font-weight: 600;
   width: 50%;
   line-height: 2.3vw;
 }
 
-#right .bottom h6{
+#right .bottom h6 {
   font-size: 1.1vw;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
