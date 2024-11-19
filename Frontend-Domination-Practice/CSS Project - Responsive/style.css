@@ -34,9 +34,11 @@ nav {
 }
 
 nav h1 {
-  font-size: 2.5vw;
   font-family: monument;
   padding-left: 50px;
+  font-size: 3vw;
+  letter-spacing: -3px;
+  position: relative;
 }
 
 nav h2 {
@@ -50,12 +52,6 @@ nav h2 {
   justify-content: center;
   border-right: 2px solid #000;
   text-transform: capitalize;
-}
-
-nav h1{
-  font-size: 3vw;
-  letter-spacing: -3px;
-  position: relative;
 }
 
 nav h1::before {
@@ -128,7 +124,6 @@ nav h2:nth-last-child(1) {
   font-family: monument;
   letter-spacing: 2px;
   color: white;
-  mix-blend-mode: difference;
 }
 
 #text-container #top h2 {

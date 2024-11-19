@@ -1,66 +1,85 @@
 @media (max-width: 600px) {
+
+    /* Navbar section */
+
     nav {
-        border-top: 2px solid #000;
-        border-bottom: 2px solid #000;
-        height: 14vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 2.5vw;
+        height: 10vh;
       }
       
       nav h1 {
-        font-size: 2.5vw;
-        font-family: monument;
-        padding-left: 50px;
+        width: 90%;
+        font-size: 8vw;
+        text-align: center;
       }
       
       nav h2 {
-        height: 100%;
-        width: 25%;
-        font-size: 1.4vw;
-        font-weight: 500;
-        font-family: Arial, Helvetica, sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-right: 2px solid #000;
-        text-transform: capitalize;
+        display: none;
       }
-      
-      nav h1{
-        font-size: 3vw;
-        letter-spacing: -3px;
-        position: relative;
-      }
-      
       nav h1::before {
-        content: "©️";
-        font-size: 17px;
-        position: absolute;
-        top: 0%;
-        right: -10%;
+        display: none;
       }
       
       nav h1::after {
-        width: 60%;
-        content: "model management";
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 13px;
-        letter-spacing: 0px;
+       display: none;
+      }
+
+      /* Vedio section */
+
+      #vedio {
+        height: 50vh;
+        width: 100%;
+        position: relative;
+        padding: 3.4vw 6vw;
+      }
+      
+      #video-container {
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      
+      #video-container video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      
+      #text-container {
         position: absolute;
-        top: 80%;
-        left: 50%;
-        font-weight: 400;
+        bottom: 0;
+        left: 0;
+        height: 40%;
+        width: 100%;
+        color: #fff;
+        padding: 2vw 4vw;
       }
       
-      nav h2:nth-child(4) {
-        width: 35%;
+      #text-container #top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
       
-      nav h2:nth-last-child(1) {
-        font-size: 2vw;
-        font-weight: 500;
+      #text-container #top h1 {
+        font-size: 4vw;
       }
+      
+      #text-container #top h2 {
+        height: 30px;
+        width: 30px;
+      }
+      
+      #text-container #bottom {
+        margin-top: 3vw;
+      }
+      
+      #text-container #bottom h4 {
+        font-size: 4vw;
+      }
+      #bottom img {
+        height: 50px;
+        width: 50px;
+      }
+
+      
 }
