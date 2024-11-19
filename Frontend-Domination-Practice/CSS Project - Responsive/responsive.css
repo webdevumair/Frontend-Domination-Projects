@@ -45,19 +45,7 @@
       }
       
       #text-container {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 40%;
-        width: 100%;
-        color: #fff;
-        padding: 2vw 4vw;
-      }
-      
-      #text-container #top {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        height: 25vh;
       }
       
       #text-container #top h1 {
@@ -81,5 +69,41 @@
         width: 50px;
       }
 
+      /* Slider section */
       
+      #slider {
+        height: 20vh;
+      }
+      
+      #slider-container {
+        width: 140%;
+      }
+      
+      #slider-container img {
+        width: 18vw;
+        height: 16vh;
+        margin: 0;
+      }
+
+      /* Alphabet section */
+      #alphabet {
+        height: 13vh;
+        width: 100%;
+        letter-spacing: none;
+      }
+      
+      #alphabet h5 {
+        margin-right: 10px;
+        font-size: 5vw;
+      }
+      
+      #alphabet h6 {
+        height: 20px;
+        width: 55px;
+        font-size: 1.7vw;
+      }
+      #alphabet h6:nth-child(8) {
+        height: 20px;
+        width: 55px;
+      }
 }
