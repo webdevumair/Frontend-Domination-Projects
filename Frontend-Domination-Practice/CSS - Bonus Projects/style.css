@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 :root{
-    --font1: 'Source Serif 4', serif;
-    --font2: 'Mona Sans', sans-serif;
+    --default-font: 'Mona Sans', sans-serif;
+    --secondary-font: 'Source Serif 4', serif;
 }
 
 
@@ -16,66 +16,4 @@
 html , body{
     height: 100vh;
     width: 100vw;
-}
-
-nav{
-    height: 15vh;
-    width: 100vw;
-    padding: 2rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-#nav-left,#links{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-#links{
-    margin-left: 4vw;
-}
-
-#links h4{
-    text-transform: capitalize;
-    font-weight: 550;
-    font-size: 1.1vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.3vw;
-}
-
-#links h4 span{
-    font-size: 1.5vw;
-}
-
-#right{
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-#right h4{
-    font-size: 1.2vw;
-    font-weight: 600;
-    font-family: var(--font2);
-}
-
-#right h4:nth-child(2){
-    background-color: black;
-    color: white;
-    padding: 0.9rem 1.5rem;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 1.2vw;
-    font-weight: 600
-}
-
-#right h4:nth-child(2):hover{
-    background-color: #565564;
 }
