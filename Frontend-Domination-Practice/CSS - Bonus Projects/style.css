@@ -170,6 +170,7 @@ nav{
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1.4vw;
+    padding-bottom: 20px;
 
 }
 
@@ -215,6 +216,7 @@ nav{
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    cursor: pointer;
     
 }
 
@@ -222,7 +224,7 @@ nav{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    cursor: pointer;
+    
 }
 
 .box-text{
